@@ -1,5 +1,5 @@
-public class Drink extends Item {
-    public Drink(String name, double price) {
+public class Food extends Item {
+    public Food(String name, double price) {
         super(name, price);
     }
 
@@ -7,7 +7,7 @@ public class Drink extends Item {
     public void modify(String newName, double newPrice) {
         this.name = newName;
         this.price = newPrice;
-        System.out.println("Item minuman berhasil diubah");
+        System.out.println("Item makanan berhasil diubah");
     }
-    
 }
+    

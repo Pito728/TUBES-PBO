@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class PonyoApp {
+public class PonyoAppMain {
     private static Scanner scanner = new Scanner(System.in);
     private static Menu menu = new Menu();
     private static Transaction transaction = new Transaction();
